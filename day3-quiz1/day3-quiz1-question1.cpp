@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int incrementLargeInteger(int* array, int arraySize) {
+int increase(int* array, int arraySize) {
     int carry = 1;
     int returnSize = arraySize;
 
@@ -34,7 +34,7 @@ int main() {
     for (int i = 0; i < size; i++) {
         scanf("%d", &digits[i]);
     }
-    incrementLargeInteger(digits, size);
+    increase(digits, size);
 
     return 0;
 }
