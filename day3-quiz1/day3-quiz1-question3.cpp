@@ -31,8 +31,8 @@ int main() {
         scanf("%d", &nums[i]);
     }
 
-    int result = maxSum(nums, size);
-    printf("%d", result);
+    int answer = maxSum(nums, size);
+    printf("%d", answer);
 
     return 0;
 }
